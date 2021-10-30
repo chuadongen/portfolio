@@ -1,0 +1,140 @@
+:root{
+    --dark:#282A39;
+    --light:#43495E;
+    --orange:#F87C59;
+    --white:#ffffff; 
+}
+
+body{
+    background-color: var(--light);
+    color: var(--white);
+}
+
+.nav-link{
+    color:var(--white);
+}
+.nav-link:hover{
+    color: var(--white) !important; 
+}
+.nav-link::after{
+    color: var(--white);
+}
+.hireMeBtn{
+    border-radius: 10px;
+    background-color: var(--orange);
+    width: 100px;
+    text-align: center;
+    
+}
+
+#avatar{
+    border-radius: 50%;
+    max-height: 90%;
+    max-width: 90%;
+}
+
+#desc{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.container-fluid{
+    background-color: var(--dark);
+}
+
+.testimonialBox{
+    width: 48%;
+    height:49%;
+    border-radius: 10px;
+    background-color: var(--light);
+    padding:15px 40px 15px 40px;
+}
+
+.testimonialQuote{
+    color: var(--orange);
+    height: 20%;
+    padding: 0;
+    margin:0;
+    font-size: 2em;
+}
+
+.testimonialBox>p{
+    font-size: 1rem;
+    height: 60%;
+    padding: 0;
+    margin:0;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    margin-top: -2.5%;
+}
+.testimonialBox>p::-webkit-scrollbar {
+    display: none;
+  }
+
+.testimonialBox>h4{
+    font-size: 1rem;
+    height: 10%;
+    margin:0;
+    margin-top: 2.5%;
+}
+
+#timeline{
+    height: 1vh;
+    width: 90%;
+    background-color: var(--orange);
+    border: 5px solid var(--orange);
+    border-radius: 5px;
+    position: relative;
+    top: 50%;
+    left: 5%;
+    -webkit-box-shadow: 10px 5px 7px -6px #000000; 
+    box-shadow: 10px 5px 7px -6px #000000;
+}
+#schoolLogoRow{
+    position: relative;
+    top: 33%;
+}
+
+.schoolLogo{
+    border-radius: 50%;
+    height: 13vw;
+    width: 13vw;
+    position: relative;
+    -webkit-box-shadow: 10px 5px 7px -6px #000000; 
+    box-shadow: 10px 5px 7px -6px #000000;
+}
+
+.schoolItem{
+    text-align: center;
+}
+
+footer{
+    background-color: var(--dark);
+}
+br{
+    color: var(--orange);
+}
+#footerLine{
+    height: 1vh;
+    background-color: var(--orange);
+    border-radius: 5px;
+    margin-top: 3%;
+}
+#cv{
+    margin-left: 30%;
+    margin-top: 7%;
+    color: var(--white);
+    text-decoration: none;
+}
+#cv>h1{
+    margin-left: 10%;
+    margin-top: 7%;
+}
+
+a::after{
+    color:var(--white);
+}
+
